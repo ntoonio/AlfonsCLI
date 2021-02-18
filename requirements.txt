@@ -1,0 +1,1 @@
+-e git://github.com/ntoonio/AlfonsIoT.git@c1fc33fdb3b68f2fd2b7d25502acbf052c64e6a6#egg=alfonsiot # AlfonsIoT v.0.0.6
