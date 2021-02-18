@@ -13,12 +13,9 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/ntoonio/AlfonsCLI.git",
     packages=setuptools.find_packages(),
-	install_requires=[
-		"AlfonsIoT"
-	],
 	entry_points = {
 		"console_scripts": [
-			"alfons = AlfonsCLI.__main__:main",
+			"alfonscli = alfonscli.cli:main",
 		],
 	}
 )

@@ -44,7 +44,7 @@ def readProfile(name):
 	else:
 		return {}
 
-def main(args):
+def main():
 	parser = argparse.ArgumentParser()
 	
 	parser.add_argument("-p", "--profile", default="default")
